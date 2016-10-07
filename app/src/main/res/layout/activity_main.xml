@@ -40,6 +40,15 @@
         android:max="255"
         android:layout_marginBottom="15dp" />
 
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/green"
+        android:id="@+id/greenSB"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:max="255" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,6 +57,45 @@
         android:id="@+id/green"
         android:labelFor="@+id/greenSB"
         android:layout_below="@+id/redSB"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/blue"
+        android:id="@+id/blue"
+        android:labelFor="@+id/greenSB"
+        android:layout_below="@+id/greenSB"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/alpha"
+        android:id="@+id/alpha"
+        android:labelFor="@+id/greenSB"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/blueSB"
+        android:layout_marginTop="10dp" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/alpha"
+        android:layout_alignParentStart="true"
+        android:id="@+id/alphaSB"
+        android:layout_alignParentEnd="true"
+        android:max="1" />
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:id="@+id/blueSB"
+        android:max="255"
+        android:layout_below="@+id/blue"
         android:layout_alignParentStart="true" />
 
     <!--TODO: SeekBar for blue -->

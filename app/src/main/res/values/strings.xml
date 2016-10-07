@@ -2,7 +2,7 @@
     <string name="app_name">RGB-A (MVC)</string>
     <string name="action_about">About</string>
     <!-- TODO: replace your name -->
-    <string name="author">Gerry Hurdle (hurdleg)</string>
+    <string name="author">Ryan Doiron (doir0008)</string>
     <string name="alpha">Transparency (Alpha)</string>
     <string name="black">Black</string>
     <string name="blue">Blue</string>
