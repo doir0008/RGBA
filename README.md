@@ -1,6 +1,5 @@
-## RGB-A ##
+## RGB-A Color Picker
 
-On GitHub https://github.com/hurdleg/RGBA.git
+Choose from Red, Green, Blue and Alpha channels.
 
-Please read my //TODO comments for you :)
-> View > Tool Windows > TODO
+![RGB-A App Screenshot](RGB.png)
